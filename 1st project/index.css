@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 64%;
+    border: 3px solid rebeccapurple;
+    border-radius: 21px;
+}
+
+.navlist {
+    width: 70%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.navlist li {
+    font-size: 19px;
+    list-style: none;
+    padding: 20px 23px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navlist li a:hover {
+    color: yellowgreen;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+    /* background-color: blue; */
+    padding: 0 20px;
+}
+
+#search {
+    padding: 2px;
+    font-size: 13px;
+    border: 2px solid #181616;
+    border-radius: 10px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('johannes-ludwig-8dejZGw3Hec-unsplash.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+.firstsection {
+    height: 92vh;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 73%;
+}
+
+.firsthalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 36px;
+    color: black;
+}
+
+.text-small {
+    font-size: 15px;
+    color: black;
+}
+
+.btn {
+    padding: 9px 17px;
+    margin: 9px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* font-size: 13px; */
+    cursor: pointer;
+    background: none;
+    color: blue;
+}
+
+.btn-sm {
+    padding: 8px 11px;
+    vertical-align: middle;
+}
+
+.section {
+    /* height: 320px; */
+    display: flex;
+    max-width: 66%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+.section-left {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 20px 30px;
+}
+
+.sectionsubtag {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 4px;
+}
+
+.thumbnail img {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.conatct {
+    background-color: #e2e0dd;
+    height: 75vh;
+}
+
+.text-center {
+    text-align: center;
+    padding: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-input {
+    margin: 7px 0px;
+    width: 100%;
+    font-size: 14px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+.btnetc {
+    width: 81px;
+    display: flex;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.foot {
+    background-color: black;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    color: ivory;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.burger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 4px 4px;
+}
+
